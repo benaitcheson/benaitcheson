@@ -20,9 +20,36 @@ img {
     max-width: 576px;
 }
 
-.sidenav {
+.container {
+    height: 100%;
     display: grid;
-    grid-column: 0 / -1;    
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px auto auto 40px;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "c c c c c c c c c c c c"
+        "a a a a a a a a a a a a"
+        "f f f f f f f f f f f f";
+}
+
+.sidenav {
+    grid-area: h;
+}
+
+.projects {
+    grid-area: c;
+}
+
+.aboutMe {
+    grid-area: a;
+}
+
+.footer {
+    grid-area: f;
+}
+
+.sidenav { 
     border: 10px solid black;
 }
 
