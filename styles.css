@@ -20,6 +20,12 @@ img {
     max-width: 576px;
 }
 
+.sidenav {
+    display: grid;
+    grid-column: 0 / -1;    
+    border: 10px solid black;
+}
+
 .myProjects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
