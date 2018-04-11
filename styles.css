@@ -16,41 +16,63 @@ body {
     font-family: sans-serif;        
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 2%;
+}
+
+.navBar {
+    background-color: #590202;
+    position: fixed;
+    min-width: 100%;
+}
+
+nav .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+    padding-right: 5%;
+}
+
+nav ul a {
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+    
+nav ul a:hover {
+    opacity: 0.3;
+}
+    
+nav li {
+    display: inline-block;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.label-toggle {
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    color: #f2f2f2;
+    font-size: 2em;
+}
+
 img {
     max-width: 576px;
-}
-
-.container {
-    height: 100%;
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40px auto auto 40px;
-    grid-template-areas: 
-        "h h h h h h h h h h h h"
-        "c c c c c c c c c c c c"
-        "a a a a a a a a a a a a"
-        "f f f f f f f f f f f f";
-}
-
-.sidenav {
-    grid-area: h;
-}
-
-.projects {
-    grid-area: c;
-}
-
-.aboutMe {
-    grid-area: a;
-}
-
-.footer {
-    grid-area: f;
-}
-
-.sidenav { 
-    border: 10px solid black;
 }
 
 .myProjects {
@@ -77,6 +99,30 @@ img {
     opacity: 0.75;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
 /* Social Media */
 
 .fa {
@@ -98,3 +144,35 @@ img {
 }
 
 /* Media Queires */
+
+@media screen and (max-width: 768px) {
+    nav ul a {
+        opacity: 0.7;
+    }
+
+    ul {
+        background-color: #025908;
+        display: block;
+        height: 0;
+        list-style-type: none;
+        opacity: 0;
+        text-align: center;
+        transition: all 1s ease;
+        width: 100%;
+        visibility: hidden;
+    }
+
+    li {
+        border-bottom: 2px solid #025908;
+        color: #023059;
+        display: block;
+        font-size: 1.5em;
+        padding: 2em 0;
+    }
+
+    #menu-toggle:checked ul {
+        opacity: 1;
+        height: 100vh;
+        visibility: visible;
+      }    
+}

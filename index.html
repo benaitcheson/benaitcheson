@@ -22,21 +22,21 @@
         <div class="container">
         
     <!--Nav-->
-        <div class="sidenav">
-            <a href="#Top">Ben<br/>Aitcheson</a>                              
-            <a href="#Projects">Projects</a>    
-            <a href="#AboutMe">About Me</a>    
-            <a href="#ContactMe">Contact Me</a>                        
-        </div>        
-                
-    <!--Header-->
-        <div class="title">
-            <h1>Ben Aitcheson</h1>
-            <h2>My Portfolio.</h2>
-        </div>
+            <nav class="navBar">
+                <nav class="wrapper">
+                <div class="logo">Ben Aitcheson</div> <!-- Add Ben Aitcheson -->
+                <input type="checkbox" id="menu-toggle"/>
+                    <label for="menu-toggle" class="label-toggle"></label>
+                    <ul>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#ContactMe">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </nav>                   
 
     <!--Projects-->
-        <div class="projects">
+        <div id="Projects">
             <h2>Projects.</h2>
                 <div class="myProjects">
                     <div class="proj">
@@ -113,7 +113,7 @@
         </div>
 
     <!--About Me-->
-        <div class="aboutMe">
+        <div id="AboutMe">
             <h2>About Me.</h2>
             <p>A true inspiration for the children. Yes! In your face, Gandhi! Dr. Zoidberg, that doesn't make sense. But, okay! You've killed me! Oh, you've killed me! Five hours? Aw, man! Couldn't you just get me the death penalty?
 
@@ -126,24 +126,20 @@
         </div>
 
     <!--Contact Me-->
-        <div class="footer">
+        <div id="ContactMe">
             <h2>Contact Me.</h2>
             <p>If you would like to get in contact with or ask me a question enter your details here</p>
-                <form>
-                    <div>
-                        <label>Name</label>
-                        <input type="text" name="name" size="30" maxlength="30" required/>
-                        
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input type="text" name="email" size="30" maxlength="30" required/>
-                    </div>
-                    <div>
-                        <label>Message</label>
-                        <textarea name="message" cols="20" rows="4">Enter your message here...</textarea>
-                    </div>
-                    <input type="button" name="Send_Message" value="Send Message"/>
+                <form>                    
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Your email so I can get back to you..">
+
+                    <label for="subject">Subject:</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
                 </form>
                 <footer>
                     <h3>Social's</h3>
