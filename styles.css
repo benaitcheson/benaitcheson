@@ -26,6 +26,8 @@ body {
     background-color: #590202;
     position: fixed;
     min-width: 100%;
+    left: 0;
+    top: 0;
 }
 
 nav .wrapper {
@@ -35,7 +37,7 @@ nav .wrapper {
 }
 
 
-nav ul {    
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
