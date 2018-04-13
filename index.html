@@ -6,8 +6,9 @@
         <meta charset="UTF-8">
         <meta name="Ben Aitcheson | Portfolio" content="This is my portfolio page"/>
         <meta http-equiv="author" content="Ben James Aitcheson"/>        
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" ref="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       <!-- Global site tag (gtag.js) - Google Analytics -->
+        <link rel="stylesheet" href="styles.css">        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114040728-3"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -23,9 +24,10 @@
     <!--Nav-->
             <nav class="navBar">
                 <nav class="wrapper">
-                <div class="logo">Ben Aitcheson</div> <!-- Add Ben Aitcheson -->
+                <div class="logo">Ben Aitcheson</div>
                 <input type="checkbox" id="menu-toggle"/>
                     <label for="menu-toggle" class="label-toggle"></label>
+                    <i class="fas fa-bars"></i> <!-- Add this into the menu for mobile -->
                     <ul>
                         <li><a href="#Projects">Projects</a></li>
                         <li><a href="#AboutMe">About Me</a></li>
@@ -41,9 +43,9 @@
                     <div class="proj">
                         <img class="proj__artwork" src="images/proj1.png">
                         <div class="proj__details">                                
-                            <h2>Random Quote Generator</h2>                            
+                            <h2>Quote Generator</h2>                            
                             <p class="proj__desc">I built a quote generator that sources motivational quotes from an external API.</p>
-                            <p class="proj__desc">HTML, CSS, Bootstrap 3, Javascript and jQuery.</p>
+                            <p class="proj__desc">Built with:</br><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i></p>
                         </div>
                     </div>
                     <div class="proj">
@@ -143,7 +145,9 @@
                 </form>
                 <footer>
                     <h3>Social's</h3>
-                    <a href="https://www.facebook.com/ben.aitcheson" class="fa fa-facebook"></a>
+                    <i class="fab fa-facebook-square" href=""></i>
+                    <i class="fab fa-linkedin" href=""></i>
+                    <i class="fab fa-github-square" href=""></i>
                     <p class="copyright">&copy; Copyright Ben Aitcheson 2018</p>
                 </footer>
             </div> 
