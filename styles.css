@@ -20,7 +20,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ body {
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
+    background-color: #590202;
     color: #f2f2f2;
 }
 
@@ -132,14 +132,17 @@ input[type=submit]:hover {
 
 .fa-facebook-square {
     font-size: 2.5em;
+    color: black;
 }
 
 .fa-github-square {
     font-size: 2.5em;
+    color: black;
 }
 
 .fa-linkedin {
     font-size: 2.5em;
+    color: black;
 }
 
 .fa-html5 {
