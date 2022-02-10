@@ -13,3 +13,6 @@ I currently help run a Brisbane freeCodeCamp meetup which you can join [here](ht
 ### How to reach me
 - Website: [benaitcheson.me](https://www.benaitcheson.me)
 - Email: [benaitcheson@hotmail.com](mailto:benaitcheson@hotmail.com)
+
+### What am I currently building
+- Finance dashboard intergrating some bank APIs (learning React and using multiple APIs)
