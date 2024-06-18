@@ -16,4 +16,3 @@ I'm currently working as a Junior Developer at [Tanda](www.tanda.co) and help ru
 - Finance dashboard intergrating some bank APIs (learning React and using multiple APIs)
 - Tanda Work Sample
 - Online ordering system
-- Learning Strada
