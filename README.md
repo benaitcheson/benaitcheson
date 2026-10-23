@@ -5,9 +5,11 @@ Hi, I'm [Ben Aitcheson](https://www.benaitcheson.me), I enjoy learning everythin
 
 I'm currently working as a Software Engineer at [Tanda](www.tanda.co) and help run the Brisbane freeCodeCamp meetups which you can join [here](https://www.facebook.com/groups/980100678716424).
 
+I write about software and databases on my blog: [benaitcheson.github.io](https://benaitcheson.github.io/).
+
 ### Languages
 - Mostly Rails w/ Postgres
-- Little bit of JS
+- Little bit of JS (where I have to)
 
 ### What am I currently building
 - Finance dashboard intergrating some bank APIs (learning React and using multiple APIs)
