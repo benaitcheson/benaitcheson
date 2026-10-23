@@ -12,8 +12,5 @@ I write about software and databases on my blog: [benaitcheson.github.io](https:
 - Little bit of JS (where I have to)
 
 ### What am I currently building
-- Finance dashboard intergrating some bank APIs (learning React and using multiple APIs)
-- Tanda Work Sample
-- Online ordering system
-- Building scripts (github projects and bin/setup)
-- Postgres performance with Rails tutorial
+- [fire-runway](https://github.com/benaitcheson/fire-runway): a Rails app for tracking expenses and working out how long my money will last
+- A local LLM pipeline for finance: fine-tuning a model running in Ollama and building a RAG index over my own finance books and podcast transcripts, so fire-runway can give advice
